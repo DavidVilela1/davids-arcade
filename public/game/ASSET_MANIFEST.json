@@ -1,0 +1,192 @@
+{
+  "generator": "scripts/generate-assets.mjs",
+  "license": "All rights reserved. Original assets created for David's Arcade; see LICENSE and ASSET_CREDITS.md.",
+  "thirdPartyAssets": [],
+  "palette": {
+    "k": "#0e0b0c",
+    "K": "#1b1517",
+    "d": "#261d20",
+    "D": "#33282b",
+    "m": "#45383b",
+    "M": "#5a4a4c",
+    "g": "#75645f",
+    "G": "#978780",
+    "l": "#bcaea5",
+    "w": "#e2d9cf",
+    "W": "#f4eee6",
+    "r": "#3b1116",
+    "R": "#5e171d",
+    "e": "#87222a",
+    "E": "#ad3434",
+    "f": "#cf6655",
+    "b": "#33201a",
+    "B": "#523424",
+    "n": "#7a5135",
+    "N": "#9c6f48",
+    "y": "#b08d4f",
+    "Y": "#e0c58e",
+    "o": "#b8642f",
+    "h": "#b9805f",
+    "H": "#dba582",
+    "c": "#1d2b2e",
+    "C": "#33494a",
+    "t": "#5f7f74",
+    "s": "#232633",
+    "S": "#3b4057",
+    "v": "#646c8a",
+    "a": "#16211a",
+    "A": "#84a86b"
+  },
+  "files": [
+    {
+      "path": "favicon.svg",
+      "bytes": 3827,
+      "sha256": "fac1d5e2512dea754c9dc9d4ecac2a95d6c4de2e0e7422508c3c0ebdb20417c5",
+      "description": "Pixel arcade-cabinet favicon"
+    },
+    {
+      "path": "game/audio/alert.wav",
+      "bytes": 19890,
+      "sha256": "1ea45457feffe4f131759ea5c9a833a6333fa7e3580916bcad2baaf8783c9bd9",
+      "description": "Sound effect: alert"
+    },
+    {
+      "path": "game/audio/bonfire.wav",
+      "bytes": 48556,
+      "sha256": "fa1fbb7db2ee66ce71b697b20c49b752cb8f929df6079ce340d5bea172b15a46",
+      "description": "Sound effect: bonfire"
+    },
+    {
+      "path": "game/audio/box.wav",
+      "bytes": 11070,
+      "sha256": "887283c88fbba1ed85e69e169f7e2be977a96ec76dc032190d9f7d7fad186103",
+      "description": "Sound effect: box"
+    },
+    {
+      "path": "game/audio/codec_ring.wav",
+      "bytes": 52964,
+      "sha256": "55525ef32c24b617a18f7b64eab68afdff30a6198d84aa62e14c713fecfd5191",
+      "description": "Sound effect: codec_ring"
+    },
+    {
+      "path": "game/audio/dice.wav",
+      "bytes": 33120,
+      "sha256": "8b107efa78319a558775370e5181cfabdf37de88ab55e887823129be5601a584",
+      "description": "Sound effect: dice"
+    },
+    {
+      "path": "game/audio/interact.wav",
+      "bytes": 5336,
+      "sha256": "97814941d4523a5bbb0c5c9dead773c2826b5f088f1869b4ccd1c3c188cc3220",
+      "description": "Sound effect: interact"
+    },
+    {
+      "path": "game/audio/music_ambient.wav",
+      "bytes": 705644,
+      "sha256": "b49e06ec581f6e5237e097912f90dbf9f6a32a8fd79ff1f2719475182d08ef73",
+      "description": "Seamless music loop: ambient"
+    },
+    {
+      "path": "game/audio/secret.wav",
+      "bytes": 44144,
+      "sha256": "b6e7754a3fd782265ce782a362b28522bd73a9ac8735a25a77b5230340dcbfbe",
+      "description": "Sound effect: secret"
+    },
+    {
+      "path": "game/audio/step.wav",
+      "bytes": 2250,
+      "sha256": "4a169be52dff4dee0d8f8ec490163ab309fc66bfffa5790c0a7d2b05a6942f6f",
+      "description": "Sound effect: step"
+    },
+    {
+      "path": "game/audio/tune.wav",
+      "bytes": 3572,
+      "sha256": "59422d1af941c2582a6c06e6630f495034c5e4b7262ec82b854700d7e9941624",
+      "description": "Sound effect: tune"
+    },
+    {
+      "path": "game/audio/ui_close.wav",
+      "bytes": 16142,
+      "sha256": "19d3bf31624f6203056e62e56577bf0739864445d80382ba346e756a4a43ed97",
+      "description": "Sound effect: ui_close"
+    },
+    {
+      "path": "game/audio/ui_open.wav",
+      "bytes": 16142,
+      "sha256": "e7a1f8e2ecf1f6bd5ac54b2ff9eeb304b71f277ac5a18650854cb72adb50d5ec",
+      "description": "Sound effect: ui_open"
+    },
+    {
+      "path": "game/audio/vent.wav",
+      "bytes": 26504,
+      "sha256": "e43689ab44a3192c9399c2ed430169150cb7cda545928dfbfb182306d2d72d69",
+      "description": "Sound effect: vent"
+    },
+    {
+      "path": "game/portraits/control.png",
+      "bytes": 349,
+      "sha256": "5a268b514a75f3c05622601fa31fd0c9e63ae09dc5b1a430c0e823205e5d0ad6",
+      "description": "Codec portrait: control"
+    },
+    {
+      "path": "game/portraits/david.png",
+      "bytes": 349,
+      "sha256": "332827321e6ab13ed13c85fd83ba046d033832449f0d7b0b357c67ba3013a764",
+      "description": "Codec portrait: david"
+    },
+    {
+      "path": "game/projects/sample-godot.png",
+      "bytes": 687,
+      "sha256": "e1cf89cb57660345d6049a8d26eff0726b0e59336d10dfe715d0b10b043efe95",
+      "description": "Placeholder media for the sample godot project"
+    },
+    {
+      "path": "game/projects/sample-unity.png",
+      "bytes": 688,
+      "sha256": "bcc95b72c58ed6ec9dad287107392f6ff06ffe0e658d9b8a9413548447b23b23",
+      "description": "Placeholder media for the sample unity project"
+    },
+    {
+      "path": "game/projects/sample-unreal.png",
+      "bytes": 684,
+      "sha256": "a6f5ace922b60fd003d2a861f40154cff2e1bc7dea805d01fe2fd63d6dfa4445",
+      "description": "Placeholder media for the sample unreal project"
+    },
+    {
+      "path": "game/sprites/player.json",
+      "bytes": 41,
+      "sha256": "193ce541c3714842f5705ccdc5ce6a51681611c7daedf4fa4b15b88ef74b40fb",
+      "description": "Player sprite sheet frame layout"
+    },
+    {
+      "path": "game/sprites/player.png",
+      "bytes": 1117,
+      "sha256": "107497f707c3bd4d5d54ceb688eb901bb08dfad1e5fafd2e242d0f38980868bb",
+      "description": "Player sprite sheet (idle, walk, interact, cardboard box)"
+    },
+    {
+      "path": "game/sprites/props.json",
+      "bytes": 22228,
+      "sha256": "1c43825ddd86f8472e11996c47eea6f07fe0b4002dc8247461d7196392f6ea80",
+      "description": "Phaser JSON-hash atlas for props.png"
+    },
+    {
+      "path": "game/sprites/props.png",
+      "bytes": 6515,
+      "sha256": "b079e68998a073d41776ddd92990a5633e98d3f0835b15372edc1a1c4f4dc123",
+      "description": "Furniture, exhibits, decor and signage atlas"
+    },
+    {
+      "path": "game/tiles/tileset.json",
+      "bytes": 2248,
+      "sha256": "31c50ea3dbde3a55026ee3f41ae090783eb5d6fc7f233fab6156adf2d28a20ae",
+      "description": "Tile name -> index lookup for the tileset"
+    },
+    {
+      "path": "game/tiles/tileset.png",
+      "bytes": 2859,
+      "sha256": "bb7994a1fb01e10e4256e788e53b94c1cea1f23c7a8ecbfae6dedd5f6b1bc1a0",
+      "description": "16x16 floor, wall, carpet and shadow tiles"
+    }
+  ]
+}

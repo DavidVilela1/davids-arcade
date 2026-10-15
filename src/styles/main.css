@@ -1,0 +1,116 @@
+/* Base layout and design tokens. Colours mirror the pixel-art palette. */
+:root {
+  --ink: #0e0b0c;
+  --ink-2: #1b1517;
+  --ink-3: #261d20;
+  --ink-4: #33282b;
+  --stone: #45383b;
+  --ash: #75645f; /* borders only: too dark for text */
+  --muted: #a3958e; /* secondary text, 6.2:1 on panels */
+  --bone: #bcaea5;
+  --paper: #e2d9cf;
+  --white: #f4eee6;
+  --maroon: #3b1116;
+  --maroon-2: #5e171d;
+  --crimson: #87222a;
+  --red: #ad3434;
+  --salmon: #cf6655;
+  --brass: #b08d4f;
+  --candle: #e0c58e;
+  --phosphor-bg: #16211a;
+  --phosphor: #84a86b;
+  --sage: #5f7f74;
+
+  --font: ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --radius: 0;
+  --gutter: 16px;
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  overflow: hidden;
+  overscroll-behavior: none;
+  touch-action: none;
+}
+
+#app {
+  position: fixed;
+  inset: 0;
+}
+
+#game {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  outline: none;
+}
+
+#game canvas {
+  display: block;
+  flex: none;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+#ui {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.noscript {
+  max-width: 40ch;
+  margin: 20vh auto;
+  padding: var(--gutter);
+  border: 2px solid var(--brass);
+}
+
+:focus-visible {
+  outline: 2px solid var(--candle);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
